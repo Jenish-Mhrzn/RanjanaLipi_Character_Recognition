@@ -34,7 +34,7 @@ missing = [c for c in class_names if c not in label_map]
 if missing:
     print(f"WARNING: unmatched classes: {missing}")
 else:
-    print("All class_names matched in CSV ✓")
+    print("All class_names matched in CSV")
 
 
 ### CONFIG
